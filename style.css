@@ -2,34 +2,40 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 1fr 6fr;
+    border: 1px black solid;
 }
 
 .sidebar {
     grid-row: span 3;
     display: grid;
     grid-template-rows: 1fr 3fr 2fr;
+    border: 1px red solid;
 }
 
 .header {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    border: 1px blue solid;
 }
 
 .navbar {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    border: 1px green solid;
 }
 
 .main-content {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    border: 1px orange solid;
 }
 
 .left-main-content {
     display: grid;
     grid-template-columns: repeat(2, minmax(150px, 1fr));
+    border: 1px purple solid;
 }
 
 .right-main-content {
-
+    border: 1px yellow solid;
 }
