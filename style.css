@@ -29,12 +29,24 @@
     border: 1px green solid;
 }
 
+.right-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right-nav > button {
+    flex: 1;
+    margin: 20px;
+}
+
 .main-content {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 20px;
+}
+
+#main-content {
     padding: 0px;
-    border: 1px black solid;
 }
 
 .main-content > div {
