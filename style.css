@@ -2,7 +2,12 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 1fr 6fr;
-    border: 1px black solid;
+    gap: 20px;
+}
+
+.container > div {
+    border-radius: 15px;
+    padding: 15px;
 }
 
 .sidebar {
@@ -27,7 +32,15 @@
 .main-content {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    border: 1px orange solid;
+    gap: 20px;
+    padding: 0px;
+    border: 1px black solid;
+}
+
+.main-content > div {
+    border-radius: 15px;
+    padding: 15px;
+    margin: 0px;
 }
 
 .left-main-content {
@@ -37,5 +50,5 @@
 }
 
 .right-main-content {
-    border: 1px yellow solid;
+    border: 1px brown solid;
 }
