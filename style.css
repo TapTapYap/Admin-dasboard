@@ -24,11 +24,16 @@ body {
     background-color: whitesmoke;
 }
 
+.top-sidebar {
+    border-bottom: 1px red solid;
+}
+
 .middle-sidebar {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     font-size: x-large;
+    border-bottom: 1px red solid;
 }
 
 .bottom-sidebar {
