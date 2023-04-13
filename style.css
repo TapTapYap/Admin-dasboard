@@ -25,7 +25,7 @@ body {
 }
 
 .top-sidebar {
-    border-bottom: 1px red solid;
+    box-shadow: -5px -5px 10px red;
 }
 
 .middle-sidebar {
