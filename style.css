@@ -53,12 +53,17 @@ body {
 
 .left-header {
     display: flex;
-    border-right: 1px dotted blue;
 }
 
 .left-header > input {
     flex: 1;
     margin: 20px;
+}
+
+#mag-glass {
+    display: flex;
+    align-self: center;
+    font-size: 1.5rem;
 }
 
 .navbar {
@@ -104,6 +109,11 @@ body {
     display: grid;
     grid-template-columns: repeat(2, minmax(150px, 1fr));
     gap: 30px;
+}
+
+.left-main-content-articles > div > span {
+    text-align: right;
+    padding-left: 10px;
 }
 
 .right-main-content {
